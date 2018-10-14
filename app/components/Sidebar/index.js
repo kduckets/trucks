@@ -48,9 +48,6 @@ class Sidebar extends React.Component { // eslint-disable-line react/prefer-stat
     const { places, history } = this.props;
     return (
       <Wrapper>
-        <Heading>
-          <H1>Trucks in your hood</H1>
-        </Heading>
         <Listing>
           {places.map((place) => (
             <Item
