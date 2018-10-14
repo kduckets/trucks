@@ -14,7 +14,7 @@ const Sprite = styled.div`
   color: #404040;
   font-size: 25px;
   height: 25px;
-  width: 100px;
+  width: 120px;
   margin: 0 auto;
   position: relative;
   padding: 0;
