@@ -19,7 +19,6 @@ class Map extends React.Component { // eslint-disable-line react/prefer-stateles
       key={p.id}
       name={p.id}
       place={p}
-      // label={p.name}
       onClick={this.props.onMarkerClick.bind(this)}
       map={this.props.map}
       position={p.geometry.location}
