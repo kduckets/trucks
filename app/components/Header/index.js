@@ -26,8 +26,8 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   letter-spacing: 1px;
   color: #fff;
-  line-height: 40px;
-  h1 { font-size: 28px; }
+  line-height: 60px;
+  h1 { font-size: 18px; }
 `;
 
 // const Section = styled.section`
