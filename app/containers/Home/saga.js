@@ -9,8 +9,8 @@ export function* searchNearby() {
 
     const opts = {
       location: map.center,
-      radius: '500',
-      types: ['cafe'],
+      radius: '420',
+      types: ['bakery'],
     };
 
     try {

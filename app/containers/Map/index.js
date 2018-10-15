@@ -6,6 +6,7 @@
 
 import React from 'react';
 import { Map as GoogleMap, Marker } from 'google-maps-react';
+
 // import styled from 'styled-components';
 
 
@@ -22,6 +23,10 @@ class Map extends React.Component { // eslint-disable-line react/prefer-stateles
       onClick={this.props.onMarkerClick.bind(this)}
       map={this.props.map}
       position={p.geometry.location}
+      icon={{
+      url:"truck.png",
+      anchor: new google.maps.Point(32,32),
+      scaledSize: new google.maps.Size(32,32)}}
     />));
   }
 
