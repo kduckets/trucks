@@ -62,7 +62,6 @@ export class Home extends React.Component { // eslint-disable-line react/prefer-
         visible={false}
       >
         <Header />
-        <Sidebar places={places} />
         <Content>
           {/* <Redirect path="/" to="/map" /> */}
           <Route
@@ -79,6 +78,8 @@ export class Home extends React.Component { // eslint-disable-line react/prefer-
           />
           <Route path="/detail/:placeId" render={(props) => <span>{`Detail Page: ${props.match.params.placeId}`}</span>} />
         </Content>
+        <Sidebar places={places} />
+
       </StyledMap>
     );
   }
