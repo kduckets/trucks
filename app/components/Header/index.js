@@ -40,7 +40,7 @@ const StyledLink = styled(Link)`
 function Header() {
   return (
     <Wrapper>
-      <StyledLink to="/"><h1>Food Trucks</h1></StyledLink>
+      <StyledLink to="/map"><h1>Food Trucks Nearby</h1></StyledLink>
     </Wrapper>
   );
 }
